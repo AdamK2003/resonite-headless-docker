@@ -1,6 +1,6 @@
 # Resonite Headless on ARM, dockerized
 
-## WARNING: this doesn't work out of the box as of 2025-01-29, ~~I need to implement assembly rebuild stuff~~ (update 2025-02-18: not needed anymore; thanks, Cyro!) and depotdownloader currently doesn't work with the new private branches
+## WARNING: this doesn't work out of the box as of 2025-01-29, ~~I need to implement assembly rebuild stuff~~ (update 2025-02-18: not needed anymore; thanks, Cyro!) and depotdownloader currently doesn't work with the new private branches (update 2025-02-18: added a NO_UPDATE env var that'll disable the depot downloading part of the updater and just have it copy the libraries, so you can `scp` the files over manually)
 
 ## How to run
 
