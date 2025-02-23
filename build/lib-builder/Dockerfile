@@ -11,7 +11,7 @@ RUN chmod a+x ./*
 RUN ./run-builds.sh
 
 
-FROM mcr.microsoft.com/dotnet/sdk:8.0 AS dotnet
+FROM mcr.microsoft.com/dotnet/sdk:9.0 AS dotnet
 
 WORKDIR /build
 
